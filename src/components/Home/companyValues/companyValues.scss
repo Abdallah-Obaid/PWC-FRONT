@@ -1,0 +1,140 @@
+@media (max-width: 767px) {
+
+.container-Info.my-5.d-flex.justify-content-center {
+    width: 90%;
+    margin: 0 auto;
+}
+p.font-weight-bold.mb-0 {
+    margin-left: 2%;
+}
+.resp {
+        width: 2.5rem;
+        height: 5vh;
+}
+.white {
+    background-color: #f8f9fa!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    text-align: -webkit-right;
+}
+button.navbar-toggler {
+    margin-right: -147%;
+}
+a.navbar-brand.brand {
+    margin-left: -280%;
+}
+#logo {
+    width: 31px;
+    margin-left: -153%;
+}
+}
+
+@media (min-width: 768px) {
+
+        p .bold{
+            font-size: 14px;
+            margin-bottom: 7px;
+            font-family: 'Fira Sans', sans-serif;
+            font-weight: bold;
+        
+        }
+        
+        .small {
+            font-size: 12px !important;
+            letter-spacing: 0.5px !important
+        }
+        
+        .card-header img {
+            border: 5px solid white !important;
+        }
+        
+        .outside {
+            position: absolute;
+            left: -11%
+        }
+        
+        hr {
+            justify-content: center !important;
+            align-self: center !important;
+            width: 80%
+        }
+        
+        .bold {
+            font-weight: 500
+        }
+        
+        .margin-left {
+            margin-left: 30px !important
+        }
+        
+        @media (max-width: 390px) {
+            .outside {
+                position: relative;
+                left: 0
+            }
+        }
+        .col-auto.mx-sm-5 {
+            width: 325px;
+            left: 10px;
+            margin-top: -14%;
+            margin-bottom: -6%;
+        }
+        .col-auto.mt-lg-0.mt-5 {
+            width: 325px;
+            left: -38px;
+            margin-top: -20%;
+            margin-bottom: -6%;
+        }
+        .img-fluid-logo {
+            width: 1vw;
+        }
+        .second-card {
+            border: solid #7a9d96b5;
+            margin-top: -26%;
+        }
+        .first-card {
+            border: solid #7a9d96b5;
+            margin-top: 24.5%;
+        
+        }
+        .third-card {
+            border: solid #7a9d96b5;
+            margin-top: -26%;
+        
+        
+        }
+        
+        .img-fluid-logo {
+            border-radius: 50%;
+            -webkit-transition: -webkit-transform .8s ease-in-out;
+                    transition:         transform .8s ease-in-out;
+          }
+
+        .my-5 {
+            margin-bottom: 8rem!important;
+        }
+        .img-fluid-logo {
+            width: 2.5vw;
+            margin-bottom: 27%;
+        }
+        span.carousel-control-next-icon {
+            margin-left: -80%;
+        }
+        span.carousel-control-prev-icon {
+            margin-right: -80%;
+        }
+        .w-90 {
+            margin-top: 3%;
+            height: 70vh;
+        }
+        .white {
+            background-color: #f8f9fa!important;
+        }
+        .img-fluid {
+            margin-left: 8%;
+            margin-top: -5%;
+        }
+  }
+
+

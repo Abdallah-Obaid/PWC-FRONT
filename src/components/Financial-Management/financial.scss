@@ -1,0 +1,194 @@
+@media(max-width:767px) {
+    .col-md-4-finincial {
+        
+            flex: 0 0 100.333333%;
+            max-width: 114.333333%;
+}
+ }
+    .summary {
+        border-top-right-radius: unset;
+        border-bottom-left-radius: 1rem;
+    }
+    .cardFinancial {
+        margin: 3vh auto ;
+        margin-top: 193px;
+    }
+    .cart {
+        padding: 4vh;
+        border-bottom-left-radius: unset;
+        border-top-right-radius: 1rem
+    }
+
+.title {
+    margin-bottom: 4vh
+}
+.cardFinancial {
+    margin: 10% auto;
+    margin-bottom: 6%;
+    max-width: 950px;
+    width: 75%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    border: transparent;
+}
+.cart {
+    background-color: #fff;
+    padding: 4vh 5vh;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem
+}
+
+.summary {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 4vh;
+    color: rgb(65, 65, 65);
+    background-image: url("./new2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fira Sans', sans-serif;
+} 
+.summary .col-2max {
+    padding: 0
+}
+.summary .col-10 {
+    padding: 0
+}
+// .row {
+//     margin: 0
+// }
+.title b {
+    font-size: 1.5rem
+}
+.main {
+    margin: 0;
+    padding: 2vh 0;
+    width: 100%
+}
+.col-2,
+.col {
+    padding: 0 1vh
+}
+
+.close {
+    margin-left: auto;
+    font-size: 0.7rem
+}
+.img-fluid {
+    width: 3.5rem
+}
+.back-to-shop {
+    margin-top: 4.5rem
+}
+.h5fin {
+    margin-top: 4vh
+}
+
+.formFin {
+    padding: 2vh 0
+}
+.inputFin {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247)
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent
+}
+.btn-financial {
+    width: 100%;
+    font-size: 0.7rem;
+    margin-top: 4vh;
+    padding: 1vh;
+    width: 45%;
+    margin-left: 33%;
+}
+.btn-financial:focus {
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    -webkit-box-shadow: none;
+    -webkit-user-select: none;
+    transition: none
+}
+.btn-financial:hover {
+    color: white
+}
+.rowrow{
+    border-top: 1px solid rgba(0,0,0,.1);
+     padding: 2vh 0;
+}
+.colcol{padding-left:0;}
+.main{
+    height: auto;
+}
+ .f-input  {
+        font-family: 'Quicksand', sans-serif;
+    }
+.rowFinanc{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+
+.col-md-4-finincial {
+    flex: 0 0 39.333333%;
+    max-width: 33.333333%;
+}
+}
+.imgfin{
+margin-left: 5%;
+}
+
+.finClass {
+    width: 100%;
+    padding: 13%;
+    margin-top: 6%;
+    background: #1e494ef2;
+    color: antiquewhite;
+}
+.calculateButton {
+    width: 50%;
+    margin-top: 0%;
+    padding: 3%;
+    margin-left: 31%;
+}
+.socialSecurity{
+    color:tomato;
+}
+.lineoranage{
+    background:orange;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+#result-div{
+    display: none;
+}
+.hiGuys{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 946px;
+    padding-left: 2%;
+    // box-shadow: 1px 1px 8px #13303f73, 1px 1px 1px #13303f94;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.davdovy {
+    margin-top: -86px;
+    margin-bottom: 5%;
+    margin-left: -18%;
+}
+.row.main.align-items-center:hover {
+    background-color: #959883;
+}
+button.btn-financial.btn-block.btn.btn-warning {
+    width: 52%;
+    margin-left: 21%;
+}

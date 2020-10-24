@@ -1,0 +1,75 @@
+@media (max-width: 767px) {
+
+.space {
+    margin-top: 1.5%;
+}
+.mid {
+    text-align: center;
+}
+}
+
+@media (min-width: 768px) {
+.card-posts {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.hd {
+    font-size: 30px;
+    font-weight: 555;
+    margin-top: 8%;
+}
+.card.hover,
+.card:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2)
+}
+
+.img {
+    margin-bottom: 35px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222)
+}
+
+.card-title {
+    font-weight: 600
+}
+
+button.focus,
+button:focus {
+    outline: 0;
+    box-shadow: none !important
+}
+
+.ft {
+    margin-top: 25px
+}
+
+.chk {
+    margin-bottom: 5px
+}
+
+.rck {
+    margin-top: 20px;
+    padding-bottom: 15px
+}
+.container-fluid.mx-auto.mt-5.mb-5.col-12 {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.row-posts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: 255px;
+}
+.space {
+    margin-top: 1.5%;
+}
+}

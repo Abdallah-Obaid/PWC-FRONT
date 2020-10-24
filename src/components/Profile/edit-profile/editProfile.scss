@@ -1,0 +1,86 @@
+.F1Div{
+    width: 200px;
+}
+.F2Div{
+    width: 140px;
+}
+.F3Div{
+    height: 140px;
+    background-color: rgb(233, 236, 239);
+}
+.Span1{
+    color: rgb(166, 168, 170);
+    font: bold 8pt Arial;
+}
+.containerdiv{
+    margin-top: 8%;
+    margin-bottom: 2%;
+    align-items: center;
+    width: 65%;
+    border-radius: 10px;
+    border: none;
+}
+.imgProfile{
+    max-width: 100%;
+    margin-top: 26%;
+
+}
+.form1{
+    margin-right: 14%;
+}
+.buttonRelative{
+    position:relative;
+}
+.buttonEP{
+    position:absolute;
+    margin-top:-10%;
+}
+.buttonR{
+   position: relative;
+}
+.inputImage{
+   opacity: 0%;
+   position: absolute;
+   z-index: 1;
+  };
+.cardBorder{
+    border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
+    margin: -2%;
+
+}  
+
+.smallCardDiv{
+    border-radius: 0.25rem 0rem 0rem 0.25rem;
+}
+span.badge.badge-warning.hi {
+    padding: 26%;
+    text-transform: uppercase;
+}
+.change-pass {
+    margin-left: -5%;
+
+}
+.bold {
+    font-size: 18px;
+    font-weight: bold;
+}
+a.active.nav-link.bold.setting {
+    margin-top: 37%;
+
+}
+.space-img {
+    padding: 10px;
+}
+button.btn.btn-warning.buttonEP {
+    margin-right: -13%;
+}
+.div-hi {
+    margin-right: 5%;
+
+}
+
+
+button.back-prof.btn-block.btn.btn-warning.btn.btn-primary {
+    margin-left: -98%;
+    margin-top: -110%;
+}

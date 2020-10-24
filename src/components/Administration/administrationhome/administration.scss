@@ -1,0 +1,148 @@
+@media (max-width: 767px) {
+.administrationHome {
+    margin: 25% 0px 0px 14%;
+    color: #2d6064;
+}
+// search bar
+.searchbar{
+    margin-bottom: auto;
+    margin-top: 4%;
+    height: 60px;
+    padding: 10px;
+    margin-left: -25%;
+    border-bottom: solid #2d60649c;
+
+    }
+
+    .search_input{
+    color: #2d6064;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 270px;
+    caret-color:#2d60649c;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #2d60649c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:#2d60649c;
+    text-decoration:none;
+    
+    }
+    button.admin-home.btn.btn-warning {
+        margin-top: 5%;
+        margin-left: 14%;
+    }
+    button.admin-home.accept.btn.btn-warning {
+        margin-left: 3%;
+    }
+
+}
+
+@media (min-width: 768px) {
+// search bar
+.searchbar{
+    margin-bottom: auto;
+    margin-top: 1rem;
+    height: 60px;
+    padding: 10px;
+    margin-left: 60%;
+    border-bottom: solid #2d60649c;
+
+    }
+
+    .search_input{
+    color: #2d6064;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 270px;
+    caret-color:#2d60649c;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #2d60649c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:#2d60649c;
+    text-decoration:none;
+    
+    }
+
+
+    button.admin-home.btn.btn-warning {
+        margin-left: 8%;
+    }
+    button.admin-home.accept.btn.btn-warning {
+        margin-left: 0;
+    }
+
+    .table-admin {
+        margin-bottom: 4%;
+    }
+
+
+.administrationHome{
+    margin:10% 0px 0px 8%;
+    color: #2d6064;
+}
+
+.admin-home{
+    margin: 4% 1% 0 0;
+}
+.admin-home-search-div{
+    margin: 0% 0px 0px 9%;
+    width: 50%;
+    display: inline-block;
+}
+.admin-home-search{
+    display: inline-block;
+    width: 42rem;
+}
+
+.fa.fa-pencil-square-o{
+    color:#E0A814;
+    font-size: x-large;
+    }
+    .admin-list{
+        list-style: none;
+    }
+}

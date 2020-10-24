@@ -1,0 +1,113 @@
+.admin-edit-btn{
+    margin:5%
+}
+.btn-edit{
+    display: inline-block;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #dbaa2f
+}
+
+.profile-button {
+    background: #dbaa2f;
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #dbaa2f
+}
+
+.profile-button:focus {
+    background: #dbaa2f;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #dbaa2f;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #dbaa2f;
+    cursor: pointer
+}
+// .card {
+//     color: #fff;
+//     width: 350px;
+//     border-radius: 10px;
+//     background: linear-gradient(145deg, #13303f, #13303f);
+//     box-shadow: 20px 20px 60px #13303f, -20px -20px 60px #13303f;
+//     border: none;
+// }
+.profile_button {
+    color: #fff;
+    padding: 10px;
+    border: none;
+    outline: 0 !important;
+    border-radius: 50px;
+    background: #dba82a;
+}
+
+button .neo-button {
+    width: 40px;
+    height: 40px;
+    outline: 0 !important;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: #dba82a;
+
+}
+.neo-button:active {
+    border-radius: 50%;
+    background: #dba82a;
+}
+.row-edit {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin: 0 auto;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+.rounded-circle {
+    border-radius: -1%!important;
+}
+
+
+@media (min-width: 768px){
+
+.col-md-4.edit {
+    flex: 0 0 30.333333%;
+    max-width: 29.333333%;
+}
+.col-md-8.edit {
+    flex: 0 0 66.666667%;
+    max-width: 45.666667%;
+}
+.row-edit {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin: 0 auto;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+}
+
+.edit-image{
+width:6.5rem;
+}
+
+.container.box.rounded.bg-white.mt-5 {
+    width: 80%;
+}

@@ -1,0 +1,24 @@
+.mainProfile{
+    background: url("../../assest/finance1.jpg") no-repeat center center fixed ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.MuiCardActions-root {
+    justify-content: center;
+}
+#Avatar{
+    width: 75px;
+    height: 75px;
+}
