@@ -9,7 +9,6 @@ class Auth extends React.Component {
 
   render() {
     let okToRender = false;
-
     try {
       okToRender = this.context.loggedIn && (
         this.props.capability ?
@@ -20,8 +19,7 @@ class Auth extends React.Component {
     } catch (e) {
       console.warn('Not Authorized!');
     }
-
-
+    
     return (
       <Show condition={okToRender}>
         {this.props.children}

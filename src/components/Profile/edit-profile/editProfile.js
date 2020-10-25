@@ -67,12 +67,6 @@ const EditProfile = (props) => {
       // if(valid){
       userEditHisProfile(users);
       alertEditProfile();
-      // }else{
-      //   alertFaild();
-      // }
-      // }else{
-      //   userEditHisProfile(users);
-      //   alertEditProfile();
     }
 
   };
@@ -180,10 +174,6 @@ const EditProfile = (props) => {
                                 <div className="mb-2 change-pass bold"><b>Change Password</b></div>
                                 <div className="row">
                                   <div className="col">
-                                    {/* <div className="form-group">
-                                      <label className="bold" >Current Password</label>
-                                      <input className="form-control" onChange={(e) => setCurrentPass(e.target.value) } type="password" placeholder="••••••••"/>
-                                    </div> */}
                                   </div>
                                 </div>
                                 <div className="row">
@@ -194,13 +184,6 @@ const EditProfile = (props) => {
                                     </div>
                                   </div>
                                 </div>
-                                {/* <div className="row">
-                                  <div className="col">
-                                    <div className="form-group">
-                                      <label>Confirm <span className="d-none d-xl-inline">Password</span></label>
-                                      <input className="form-control" type="password" placeholder="••••••"/></div>
-                                  </div>
-                                </div> */}
                               </div>
                             </div>
                             <div className="row buttonRelative">
