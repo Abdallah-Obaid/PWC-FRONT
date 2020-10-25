@@ -1,7 +1,7 @@
 # PWC-Front
 ## Description
-The Employee management system is a fully functional web application that
- organize the operation of managing employee data such as his salary, perks, Work Time, login,
+This is a fully functional web application that
+ organize the operation of managing employee data, login,
  employee efficiency, employee personal information, generate his salary which depends on his overtime work also this system has
  administration capabilities of adding new employee deleting employee and the employee can also view his page
  and can give feedback, ask for a pay-rise and take scheduled days off.
