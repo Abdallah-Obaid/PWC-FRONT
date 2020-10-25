@@ -13,7 +13,7 @@ const Header = (props) => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
         <div className="container">
-          <img id="logo" src="../../../assest/PWC.png" alt="logo" />
+          <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Logo-pwc.png" alt="logo" />
           {/* <a className="navbar-brand brand ems" href="/">EMS</a> */}
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
