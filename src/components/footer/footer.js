@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="col-xs-12 col-sm-6 col-md-3">
               <div className="widget subscribe no-box">
                 <h5 className="widget-title">COMPANY NAME<span></span></h5>
-                <p className="txt">The Employee management system is a fully functional web application that
+                <p className="txt">fully functional web application that
               organize the operation of managing employee data. </p>
               </div>
             </div>
@@ -64,7 +64,7 @@ const Footer = () => {
               
                   <span><i className="fa fa-phone"></i> &nbsp; 123-456-789</span>
                   <br></br>
-                  <a className="a-footer" href="ems@gmail.com" title="glorythemes"> <i className="fa fa-envelope"></i> &nbsp; ems@gmail.com</a></p>
+                  <a className="a-footer" href="eng.abdallahobaid@gmail.com" title="glorythemes"> <i className="fa fa-envelope"></i> &nbsp; eng.abdallahobaid@gmail.com</a></p>
               
                 <ul className="social-footer2">
                  
@@ -83,7 +83,7 @@ const Footer = () => {
           <div className="container">
             <div className="row-footer">
               <div className="col-md-12 text-center">
-                <p>Copyright EMS © 2020. All rights reserved.</p>
+                <p>Copyright Obaid © 2020. All rights reserved.</p>
               </div>
             </div>
           </div>
