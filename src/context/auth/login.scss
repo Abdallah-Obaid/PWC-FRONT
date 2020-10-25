@@ -1,0 +1,24 @@
+#btn1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+footer .navbar-brand
+{
+    text-align: center;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    margin: 0 auto;
+}
+#btn-primary{
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+    padding: 1px !important;
+    margin-top: 13px;;
+}
+section{
+    display: flex !important;
+    justify-content: space-evenly;
+}

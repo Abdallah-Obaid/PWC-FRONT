@@ -1,0 +1,105 @@
+@media (max-width: 767px) {
+    .send-vac {
+        margin-top: 30px;
+        width: 500px;
+        .alret-button{
+            background-color:#ee9e36 ;
+            border-color: #ee9e36;
+            margin: 0 -3% 2% 13%;
+            width: 100px;
+            height: 40px;
+        }
+        .back-button{
+          background-color:#ee9e36 ;
+          border-color: #ee9e36;
+          margin: -2% 0 0 29%;
+          width: 100px;
+          height: 40px;
+      }
+      }
+    
+}
+@media (min-width: 768px) {
+.card-vacation {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 12%;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: none;
+    border-bottom: 1.5px solid #2d6064e8;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.card-body.contact.text-center.h-100.white-text {
+    background-color: #2d606461;
+    color: #2d6064;
+    background-image: url("https://images.unsplash.com/photo-1595214105846-9dc06ff92b9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    color: #2d6064;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-top: 1.5rem;
+}
+
+
+button.alret-button.btn.btn-primary:hover {
+    background-color: #ee9e36;
+}
+.send-vac {
+  margin-top: 50px;
+  width: 500px;
+  height: 100px;
+  .alret-button{
+      background-color:#ee9e36 ;
+      border-color: #ee9e36;
+      margin: 0 0 2% 85%;
+      width: 100px;
+  }
+  .back-button{
+    background-color:#ee9e36 ;
+    border-color: #ee9e36;
+    margin: 2% 0 0 85%;
+    width: 100px;
+}
+}
+.card-body.contact.text-center.h-100.white-text {
+    color: #79acc3e3;
+}
+.sectionVa{
+    width: 90%;
+    margin: 0 auto;
+}
+button.btn.back-btn.btn-warning.btn.btn-primary {
+    margin-left: 5%;
+}
+}
+

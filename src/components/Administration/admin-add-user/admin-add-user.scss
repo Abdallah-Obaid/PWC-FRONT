@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+.row-add {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 10% auto 5% auto ;
+    
+}
+
+form {
+    padding: 0;
+    margin-left: 15%
+}
+
+.abc {
+    background-color: white;
+    padding: 2%;
+    margin: auto;
+    color: #000000;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.xyz {
+    background-color: rgb(194, 183, 183);
+    padding: 2%
+}
+
+.form-control {
+    width: 80%;
+    border-radius: 25px
+}
+
+.fa {
+    color: white;
+    margin-top: 5%
+}
+
+.in {
+    color: black;
+    margin-right: 100%
+}
+
+.in2 {
+    color: black;
+    margin-right: auto
+}
+
+.my {
+    background-color: #bcc2be;
+    border: none
+}
+
+.custom-control {
+    margin-bottom: 2%
+}
+
+h2.account-text {
+    color: #fff !important;
+    font-weight: 200;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.account-description {
+    color: #fff;
+    margin-bottom: 4%;
+    font-weight: 200
+}
+
+@media only screen and (max-width: 600px) {
+    // row {
+    //     margin-top: 5%;
+    //     margin-left: 1%;
+    //     margin-right: 1%
+    // }
+}
+.col-sm-8.xyz.text-center {
+    background-image: url(https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p.h4.mb-4.text-left {
+  font-weight: bolder;
+}
+.btn-add {
+    width: 38%;
+    margin-top: 2%;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #F7BE16;
+    border-color: #F7BE16;
+
+}
+
+button.btn-add.btn-info.btn-block {
+    color: #fff;
+    background-color: #F7BE16;
+    border-color: #F7BE16;
+}
+input.form-control.mb-4 {
+    border-radius: 25px;
+}
+button.btn-add.btn-info.btn-block {
+    border-radius: 25px;
+    width: 54%;
+    margin-left: 12%;
+}
+
+.we:hover{
+    text-decoration: none;
+}
+
+button.btn-add.btn-block.btn-warning.btn.btn-primary {
+    width: 57%;
+    margin-top: 6%;
+    margin-left: 12%;
+}
