@@ -6,13 +6,12 @@ import Administration from './components/Administration/administrationhome/admin
 import AdminAddUser from './components/Administration/admin-add-user/admin-add-user';
 import AdminAcceptUser from './components/Administration/admin-accept-user/admin-accept-user';
 import AdminEditUser from './components/Administration/admin-edit-user/admin-edit-user';
-import FinancialManagement from './components/Financial-Management/financial';
+import AdminCheckcomp from './components/Administration/admin-check-complaint/admin-check-complaint';
+import AllComplaints from './components/Complaint-Management/Complaint';
 import Profile from './components/Profile/profile/profile';
 import EditProfile from './components/Profile/edit-profile/editProfile';
 import Feedback from './components/Profile/vacation/feedback';
 import Signin from './components/Sign-in/signin';
-import Chat from './components/chat/chat';
-import About from './components/About-Us/aboutus';
 
 
 const Routes = (props) => {
@@ -21,14 +20,16 @@ const Routes = (props) => {
       <Route path="/" component={Home} exact />
 
       <Route path="/administration" component={Administration} exact />
-     
-      <Route path='/administration/adduser' component= {AdminAddUser} exact />
 
-      <Route path='/administration/acceptuser' component= {AdminAcceptUser}  exact />
+      <Route path='/administration/adduser' component={AdminAddUser} exact />
 
-      <Route path='/administration/edituser' component= {AdminEditUser} exact />
+      <Route path='/administration/acceptuser' component={AdminAcceptUser} exact />
 
-      <Route path="/financialmanagement" component={FinancialManagement} exact />
+      <Route path='/administration/edituser' component={AdminEditUser} exact />
+
+      <Route path='/administration/checkcomp' component={AdminCheckcomp} exact />
+
+      <Route path="/allcomplaints" component={AllComplaints} exact />
 
       <Route path="/profile" component={Profile} exact />
 
@@ -37,10 +38,6 @@ const Routes = (props) => {
       <Route path="/profile/Feedback" component={Feedback} exact />
 
       <Route path="/signin" component={Signin} exact />
-
-      <Route path="/chat" component={Chat} exact />
-
-      <Route path="/about-us" component={About} exact />
     </>
   );
 };

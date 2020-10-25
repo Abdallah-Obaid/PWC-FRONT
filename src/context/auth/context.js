@@ -6,8 +6,8 @@ import jwt from 'jsonwebtoken';
 // const base64 = require('base-64');
 
 
-const API = process.env.REACT_APP_API || 'https://access-denied-lab-32.herokuapp.com';
-// https://class-34-auth.herokuapp.com
+const API = 'https://pwc-task.herokuapp.com';
+
 // demo : username: rawan_nujoom , password: 1234
 // demo : username: rawan_user , password: 1234
 export const LoginContext = React.createContext();
@@ -28,6 +28,7 @@ class LoginProvider extends React.Component {
     login = async(username, password) => {
 
       try {
+        console.log(API,"APIAPIAPIAPIAPI")
         const results = await fetch( `${API}/signin`, {
           method: 'POST',
           mode: 'cors',
@@ -54,7 +55,7 @@ class LoginProvider extends React.Component {
 
       try {
         console.log(process.env.REACT_APP_SECRET);
-        let user = jwt.verify(token, process.env.REACT_APP_SECRET || '12345678910');
+        let user = jwt.verify(token,  '12345678910');
         console.log('user: ',user);
         // update the login context to loggedin
         this.setLoginState(true, token, user);

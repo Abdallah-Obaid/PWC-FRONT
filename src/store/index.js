@@ -1,7 +1,7 @@
-import {combineReducers, createStore, applyMiddleware } from 'redux';
+import { combineReducers, createStore, applyMiddleware } from 'redux';
 
 // not part of the app code, this is a dependency to enable Dev tools extension in Chrome console
-import { composeWithDevTools } from 'redux-devtools-extension'; 
+import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 // I will combine reducers here. 
 // index.js is the start file for store folder
@@ -15,7 +15,7 @@ import loginReducer from './log-in';
 // reducer  ------> in on main reducer ----> dealing with the store 
 // reducer
 
-let reducers = combineReducers({ Profile,Home,loginReducer});
+let reducers = combineReducers({ Profile, Home, loginReducer });
 
 // create my store and pass this reducers variable
 

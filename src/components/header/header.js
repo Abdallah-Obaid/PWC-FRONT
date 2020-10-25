@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import { Link, NavLink } from 'react-router-dom';
 import Auth from './../../store/auth';
-import {userSignOut} from './../../store/actions';
+import { userSignOut } from './../../store/actions';
 import Show from '../show/show';
 import './header.scss';
 
@@ -13,8 +13,8 @@ const Header = (props) => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
         <div className="container">
-          <img id="logo" src="../../../assest/ems.png" alt="logo" />
-          <a className="navbar-brand brand ems" href="/">EMS</a>
+          <img id="logo" src="../../../assest/PWC.png" alt="logo" />
+          {/* <a className="navbar-brand brand ems" href="/">EMS</a> */}
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -28,9 +28,9 @@ const Header = (props) => {
                   <Link className=" btnAll-r btn-1-r aar" to="/Administration">Administration</Link>
                 </li>
               </Auth>
-              <Auth capability='account'>
+              <Auth capability='read'>
                 <li className="nav-item">
-                  <Link className=" btnAll-r btn-1-r aar" to="/financialmanagement">Financial Management</Link>
+                  <Link className=" btnAll-r btn-1-r aar" to="/allcomplaints">My complaints</Link>
                 </li>
               </Auth>
 
@@ -50,9 +50,6 @@ const Header = (props) => {
                   <Link className=" btnAll-r btn-1-r aar" to="/" onClick={props.userSignOut}>Sign Out</Link>
                 </li>
               </Show>
-              <li className="nav-item">
-                <Link className=" btnAll-r btn-1-r aar" to="/about-us">About Us</Link>
-              </li>
             </ul>
           </div>
         </div>
@@ -64,15 +61,15 @@ const Header = (props) => {
           </div>
         </div>
       </header>
-     
+
     </>
   );
 };
 
-const mapDispatchToProps= {userSignOut};
+const mapDispatchToProps = { userSignOut };
 
 const mapStateToProps = (state) => ({
   savedUser: state.loginReducer,
 });
 
-export default connect (mapStateToProps, mapDispatchToProps)(Header);
+export default connect(mapStateToProps, mapDispatchToProps)(Header);

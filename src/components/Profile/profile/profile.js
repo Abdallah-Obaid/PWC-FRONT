@@ -19,64 +19,12 @@ let hourSalary = {
 
 const Profile = (props) => {
   const [users, setUsers] = useState({});
-  const {getUserProfile,userStartWork,userEndWork} = useAjax();
+  const {getUserProfile,} = useAjax();
   const history = useHistory(); 
 
-  function alertUserStartWork() {
-    Swal.fire({
-      title: 'You had start your work',
-      text: 'We hope you will enjoy your new day ^_^',
-    }).then(function() {
-      history.push('/profile');
-    });
-  }
 
-  function alertUserStartBefore() {
-    Swal.fire({
-      title: 'You had start your work',
-      text: 'We hope you will enjoy your new day ^_^',
-    }).then(function() {
-      history.push('/profile');
-    });
-  }  
 
-  function alertUserEndWork() {
-    Swal.fire({
-      title: 'You had finish your work',
-      text: 'Enjoy in the rest of your day ^_^',
-    }).then(function() {
-      history.push('/profile');
-    });
-  }
 
-  function alertUserEndBefore() {
-    Swal.fire({
-      title: 'You had finish your work',
-      text: 'Enjoy in the rest of your day ^_^',
-    }).then(function() {
-      history.push('/profile');
-    });
-  }  
-
-  function handelStart(){
-    userStartWork().then((result)=>{
-      if(result!=='user press start before'){
-        alertUserStartWork();
-      }else{
-        alertUserStartBefore();
-      }
-    });
-  }
-
-  function handelEnd(){
-    userEndWork().then((result)=>{
-      if(result!=='user press end before'){
-        alertUserEndWork();
-      }else{
-        alertUserEndBefore();
-      }     
-    });
-  }
 
   useEffect (() => {
     getUserProfile().then(dbUsers =>{ 
@@ -171,10 +119,8 @@ const Profile = (props) => {
           <div className="profile mt-2">
             <Link to="/profile/EditProfile" className="btnAll btn-5"><span>Edit</span>
             </Link>
-            <Link to="/profile/Feedback" className="btnAll btn-5"><span>Vacation</span>
+            <Link to="/profile/Feedback" className="btnAll btn-5"><span>Complaint</span>
             </Link>
-            <Link onClick={handelStart} className="btnAll btn-5"><span>Start Shift</span></Link> 
-            <Link onClick={handelEnd} className="btnAll btn-5"><span>End Shift</span></Link> 
           </div>
           <div className="social-buttons mt-4"> <button className="neo-button"><i className="fa fa-facebook fa-1x"></i> </button> <button className="neo-button"><i className="fa fa-linkedin fa-1x"></i></button> <button className="neo-button"><i className="fa fa-google fa-1x"></i> </button> <button className="neo-button"><i className="fa fa-youtube fa-1x"></i> </button> <button className="neo-button"><i className="fa fa-twitter fa-1x"></i> </button> </div>
 

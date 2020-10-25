@@ -1,8 +1,8 @@
 import React from 'react';
 
 function Paginate(props) {
-  const pageNumbers = [];  
-  
+  const pageNumbers = [];
+
   for (
     let i = 1;
     i <= Math.ceil(props.users.length / props.itemsPerPage);
@@ -17,7 +17,7 @@ function Paginate(props) {
         {pageNumbers.map((number) => {
           return (
             <li className="li-paginate" key={number}>
-              <a href onClick = {() => { props.setCurrentPage(number);}}>{number}</a>
+              <a href onClick={() => { props.setCurrentPage(number); }}>{number}</a>
             </li>
           );
         })}

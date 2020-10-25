@@ -1,4 +1,4 @@
-# EMS-Front
+# PWC-Front
 ## Description
 The Employee management system is a fully functional web application that
  organize the operation of managing employee data such as his salary, perks, Work Time, login,
@@ -20,11 +20,9 @@ The Employee management system is a fully functional web application that
 Mongoose
 - This application uses the following method to create a new mongoose.Schema in the MongoDB DataBase. It is used to execute CRUD (create, read, update, and delete) operations on MongoDB documents.
  # UML
- [UML](https://drive.google.com/file/d/1is__qU-8BdzAASmllEOSBl5J_iZWo1Yi/view?usp=sharing)
+ [UML](../../../assest/UML.png)
  # Wireframe
- [Wireframe](https://www.figma.com/file/jkCweguIU7IoNsGqN1U3AG/EMS-Front?node-id=0%3A1)
- # Trello Board
- [Trello-Board](https://trello.com/b/UELv7lze/ems)
+ <!-- [Wireframe]() -->
 # Routes
 ### post('/signup')
 * Provide username , password , email ,image , role type as JSON

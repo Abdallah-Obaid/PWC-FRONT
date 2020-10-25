@@ -2,33 +2,13 @@
 import cookie from 'react-cookies';
 import jwt from 'jsonwebtoken';
 
-let API = 'https://ems-access-denied.herokuapp.com';
+let API = 'https://pwc-task.herokuapp.com';
 
-// SignUp Action
-// export const userSignUp = user => async () => {
-//   try {
-//     await fetch( `${API}/signup`, {
-//       method: 'post',
-//       mode: 'cors',
-//       cache: 'no-cache',
-//       headers: { 'Content-Type': 'application/json' },
-//       body: JSON.stringify({ 
-//         'username': `${user.username}`,
-//         'email': `${user.email}`,
-//         'password': `${user.password}`,
-//         'image': `${user.image}`,
-//         'role': 'user',
-//       }),
-//     });    
-//   } catch (error) {
-//     console.log(error);
-//   }
-// };
 
 export const userSignIn = user => async dispatch => {
-  if(user){
+  if (user) {
     try {
-      let results = await fetch( `${API}/signin`,{
+      let results = await fetch(`${API}/signin`, {
         method: 'POST',
         mode: 'cors',
         cache: 'no-cache',
@@ -38,12 +18,12 @@ export const userSignIn = user => async dispatch => {
       });
       let jsonResult = await results.json();
       console.log(jsonResult.token);
-      validateToken (jsonResult.token);
+      validateToken(jsonResult.token);
     } catch (error) {
       console.log(error);
     }
   }
-  function validateToken (token) {
+  function validateToken(token) {
     try {
       let user = jwt.verify(token, process.env.REACT_APP_SECRET || 'ysecrettokenkey');
       setLoginState(true, token, user);
@@ -52,26 +32,27 @@ export const userSignIn = user => async dispatch => {
       console.log(error);
     }
   }
-  
-  function setLoginState (loggedIn, token, user){
+
+  function setLoginState(loggedIn, token, user) {
     cookie.save('auth', token);
-    dispatch(loginUser({loggedIn, token, user}));
+    console.log("loggedIn, user", loggedIn, user)
+    dispatch(loginUser({ loggedIn, token, user }));
   }
-  
-  function logout (){
+
+  function logout() {
     setLoginState(false, null, {});
   }
 
   const cookieToken = cookie.load('auth');
-  const token = cookieToken; 
+  const token = cookieToken;
   validateToken(token);
 };
 
 
 export const userSignOut = () => {
-  function setLoginState (loggedIn, token, user){
+  function setLoginState(loggedIn, token, user) {
     cookie.save('auth', token);
-    return loginUser({loggedIn, token, user});
+    return loginUser({ loggedIn, token, user });
   }
   return setLoginState(false, null, {});
 };
