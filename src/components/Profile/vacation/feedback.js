@@ -49,7 +49,6 @@ const Feedback = (props) => {
                       <input type="text" id="form-contact-name" className="form-control" name='username' onChange={handleInputChange} />
                     </div>
                   </div>
-
                   <div className="col-md-6">
                     <div className="md-form mb-0">
                       <label htmlFor="form-contact-email" className="">Your email</label>
@@ -57,7 +56,6 @@ const Feedback = (props) => {
                     </div>
                   </div>
                 </div>
-
                 <div className="col">
                   <div className="col-md-6">
                     <div className="md-form mb-0">
@@ -66,7 +64,6 @@ const Feedback = (props) => {
                     </div>
                   </div>
                 </div>
-
                 <div className="col">
                   <div className="col-md-6">
                     <div className="md-form mb-0">
@@ -79,7 +76,6 @@ const Feedback = (props) => {
                     </div>
                   </div>
                 </div>
-
                 <div className="col">
                   <div className="col-md-12">
                     <div className="md-form mb-0">
@@ -87,16 +83,13 @@ const Feedback = (props) => {
                       <textarea id="form-contact-message" className="form-control md-textarea" rows="3" name='content' onChange={handleInputChange}></textarea>
                     </div>
                   </div>
-
                   <div className="send-vac">
                     <Button className=" btn btn-warning" type="submit" onClick={handleSubmit}>Send</Button>
                     <Link to='/profile'><Button className=" btn back-btn btn-warning">Back</Button></Link>
                   </div>
-                  
                 </div>
               </div>
             </div>
-
             <div className="col-lg-4">
               <div className="card-body contact text-center h-100 white-text">
                 <h3 className="my-4 pb-2">Contact information</h3>
@@ -129,7 +122,6 @@ const Feedback = (props) => {
                     </a>
                   </li>
                 </ul>
-                
               </div>
             </div>
           </div>

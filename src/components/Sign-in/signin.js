@@ -2,12 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import cookie from 'react-cookies';
-
 import { Link, useHistory } from 'react-router-dom';
 import Swal from 'sweetalert2';
-
-
-
 import { userSignIn } from '../../store/actions';
 import useAjax from '../hooks/ajaxHook';
 import './signin.scss';
@@ -113,7 +109,6 @@ function Signin(props) {
                   <div className="foot"> <a className="forget" id="oauth" href={authURL}>Sign up with Linked&nbsp;<i class="fab fa-linkedin"></i></a> </div>
                 </div>
               </form>
-
               <form onSubmit={_handleSignup}>
                 <div className="sign-up-form">
                   <div className="group"> <label htmlFor="user" className="label">Username</label> <input onChange={_changeSignUpInput} name='username' id="user" type="text" className="input" placeholder="Create your Username" /> </div>
@@ -122,7 +117,6 @@ function Signin(props) {
                   <div className="group"> <label htmlFor="pass" className="label">Password</label> <input onChange={_changeSignUpInput} name='password' id="pass" type="password" className="input" data-type="password" placeholder="Create your password" /> </div>
                   {/* <div className="group"> <label htmlFor="pass" className="label">Repeat Password</label> <input id="pass" type="password" className="input" data-type="password" placeholder="Repeat your password"/> </div> */}
                   <div className="group signup-btn "> <button className="button" value="Sign Up">SIGN UP</button> </div>
-
                   <div className="hr"></div>
                   <div className="foot height-signin"> <a className="forget" id="oauth" href={authURL}>Sign up with Linked&nbsp;<i class="fab fa-linkedin"></i></a> </div>
                 </div>

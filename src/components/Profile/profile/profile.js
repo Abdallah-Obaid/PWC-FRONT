@@ -21,11 +21,6 @@ const Profile = (props) => {
   const [users, setUsers] = useState({});
   const {getUserProfile} = useAjax();
   const history = useHistory(); 
-
-
-
-
-
   useEffect (() => {
     getUserProfile().then(dbUsers =>{ 
       setUsers(dbUsers);
@@ -44,40 +39,6 @@ const Profile = (props) => {
               <h5 className="upper"><i className="fas fa-user-tag bold"></i>&nbsp;&nbsp;&nbsp;Position:{users.position}</h5>
             </div>
           </div>
-
-          {/* <hr className="line" /> 
-          <div className="F1DivP">
-          <div className="row-md-4">
-            <h5><i class="fas fa-pencil-ruler"></i>&nbsp;Role</h5> <small>{users.role}</small>
-          </div>
-          <hr className="line" /> 
-          <div className="row-md-4">
-            <h5><i class="fas fa-envelope"></i>&nbsp;E-mail</h5><small>{users.email}</small>
-          </div>
-          </div>
-          <hr className="line" /> 
-          <div className="F1DivP">
-          <div className="row-md-4">
-            <h5><i class="fas fa-calendar-day"></i>&nbsp;Birthdate</h5><small>27/10/1995</small>
-          </div>
-          <hr className="line" /> 
-          <div className="row-md-4">
-            <h5><i class="fas fa-funnel-dollar"></i>&nbsp;Net Salary</h5><small>{(users.workHours*12).toFixed(2)}JD</small>
-          </div>
-          </div>
-          <hr className="line" /> 
-          <div className="F1DivP">
-          <div className="row-md-4">
-            <h5><i class="fas fa-business-time"></i>&nbsp;Sign-up Date</h5><small>{users.signUpDate}</small>
-          </div>
-          <div className="row-md-4">
-            <h5><i class="fas fa-mobile-alt"></i>&nbsp;Mobile</h5><small>{users.mobile}</small>
-          </div>
-          </div>
-          <hr className="line" /> 
-          <div className="row-md-4">
-            <h5><i class="fas fa-comment-dots"></i>&nbsp;About</h5><small>{users.bio}</small>
-          </div> */}
           <hr className="line" /> 
           <div className="sixDivP">
             <div className="F1DivP">
