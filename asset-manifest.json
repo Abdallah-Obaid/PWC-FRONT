@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/PWC-FRONT/static/css/main.4879ca17.chunk.css",
+    "main.js": "/PWC-FRONT/static/js/main.e75fd8d2.chunk.js",
+    "main.js.map": "/PWC-FRONT/static/js/main.e75fd8d2.chunk.js.map",
+    "runtime-main.js": "/PWC-FRONT/static/js/runtime-main.8bd8e2c5.js",
+    "runtime-main.js.map": "/PWC-FRONT/static/js/runtime-main.8bd8e2c5.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/PWC-FRONT/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.d19e4162.chunk.js": "/PWC-FRONT/static/js/2.d19e4162.chunk.js",
+    "static/js/2.d19e4162.chunk.js.map": "/PWC-FRONT/static/js/2.d19e4162.chunk.js.map",
+    "index.html": "/PWC-FRONT/index.html",
+    "precache-manifest.5f1b24d83a3075662bb250253cc4fffa.js": "/PWC-FRONT/precache-manifest.5f1b24d83a3075662bb250253cc4fffa.js",
+    "service-worker.js": "/PWC-FRONT/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/PWC-FRONT/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.4879ca17.chunk.css.map": "/PWC-FRONT/static/css/main.4879ca17.chunk.css.map",
+    "static/js/2.d19e4162.chunk.js.LICENSE.txt": "/PWC-FRONT/static/js/2.d19e4162.chunk.js.LICENSE.txt",
+    "static/media/Complaint.scss": "/PWC-FRONT/static/media/new2.08731c8b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bd8e2c5.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.d19e4162.chunk.js",
+    "static/css/main.4879ca17.chunk.css",
+    "static/js/main.e75fd8d2.chunk.js"
+  ]
+}
