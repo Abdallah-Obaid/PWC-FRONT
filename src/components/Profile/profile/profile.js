@@ -19,7 +19,7 @@ let hourSalary = {
 
 const Profile = (props) => {
   const [users, setUsers] = useState({});
-  const {getUserProfile,} = useAjax();
+  const {getUserProfile} = useAjax();
   const history = useHistory(); 
 
 

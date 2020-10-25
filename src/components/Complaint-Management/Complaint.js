@@ -25,8 +25,8 @@ const ComplaintManagement = (props) => {
     setSelectData({ ...select, '_id': value._id });
     document.getElementById(value._id).style.background = 'linear-gradient(145deg, rgb(150 164 139), rgb(136 124 87))';
     console.log(value._id, 'divdivdivdivdiv');
-    setselctedComp({ ...selctedComp, content: value.content, mobile: value.mobile, subject: value.subject, status: value.status })
-    console.log(selctedComp, 'selctedCompselctedCompselctedComp')
+    setselctedComp({ ...selctedComp, content: value.content, mobile: value.mobile, subject: value.subject, status: value.status });
+    console.log(selctedComp, 'selctedCompselctedCompselctedComp');
   };
 
 

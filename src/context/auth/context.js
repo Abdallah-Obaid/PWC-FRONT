@@ -28,7 +28,7 @@ class LoginProvider extends React.Component {
     login = async(username, password) => {
 
       try {
-        console.log(API,"APIAPIAPIAPIAPI")
+        console.log(API,"APIAPIAPIAPIAPI");
         const results = await fetch( `${API}/signin`, {
           method: 'POST',
           mode: 'cors',

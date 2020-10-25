@@ -23,9 +23,9 @@ function AdminAcceptUser(props) {
           ele.status = event.target.value;
           complaint = ele;
         }
-      })
+      });
       updateStatus(complaint);
-      setComplaints([...complaints])
+      setComplaints([...complaints]);
     } catch (error) {
       console.error(error);
     }
@@ -86,11 +86,11 @@ function AdminAcceptUser(props) {
                     <button onClick={()=> rejectUser(value)}>Remove User</button> </div> */}
 
                   <div className="p-2 icons">
-                    <input type="radio" id="pending" name={value._id} onChange={handleChange} value="pending" checked={value.status === "pending"} />
+                    <input type="radio" id="pending" name={value._id} onChange={handleChange} value="pending" checked={value.status === 'pending'} />
                     <label for="Pending"> Pending</label>
-                    <input type="radio" id="resolve" name={value._id} onChange={handleChange} value="resolve" checked={value.status === "resolve"} />
+                    <input type="radio" id="resolve" name={value._id} onChange={handleChange} value="resolve" checked={value.status === 'resolve'} />
                     <label for="female"> Resolve</label>
-                    <input type="radio" id="reject" name={value._id} onChange={handleChange} value="reject" checked={value.status === "reject"} />
+                    <input type="radio" id="reject" name={value._id} onChange={handleChange} value="reject" checked={value.status === 'reject'} />
                     <label for="other"> Reject</label>
                   </div>
                 </td>
