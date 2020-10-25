@@ -35,7 +35,7 @@ export const userSignIn = user => async dispatch => {
 
   function setLoginState(loggedIn, token, user) {
     cookie.save('auth', token);
-    console.log("loggedIn, user", loggedIn, user)
+    console.log('loggedIn, user', loggedIn, user);
     dispatch(loginUser({ loggedIn, token, user }));
   }
 

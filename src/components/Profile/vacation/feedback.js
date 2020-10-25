@@ -31,9 +31,9 @@ const Feedback = (props) => {
 
   const handleSubmit = async (event) => {
     if(event) event.preventDefault();
-      userComplaint(msg);
-      alert();
-  }
+    userComplaint(msg);
+    alert();
+  };
   return (
     <>
       <section className="contact-section my-5 sectionVa">
@@ -71,10 +71,10 @@ const Feedback = (props) => {
                   <div className="col-md-6">
                     <div className="md-form mb-0">
                       <label htmlFor="form-contact-phone" className="">Subject</label>
-                       <select  id="form-contact-phone" className="form-control" name='subject' onChange={handleInputChange} >
-                         <option value="Work Time">Work time</option>
-                         <option value="Vacations">Vacations</option>
-                         <option value="Salaries">Salaries</option>
+                      <select  id="form-contact-phone" className="form-control" name='subject' onChange={handleInputChange} >
+                        <option value="Work Time">Work time</option>
+                        <option value="Vacations">Vacations</option>
+                        <option value="Salaries">Salaries</option>
                       </select>
                     </div>
                   </div>

@@ -213,7 +213,7 @@ const useAjax = () => {
         'status': complaint.status,
         'content': complaint.content,
         'subject': complaint.subject,
-        'mobile': complaint.mobile
+        'mobile': complaint.mobile,
       }),
     });
   };
