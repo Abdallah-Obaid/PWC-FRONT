@@ -145,9 +145,5 @@ Mongoose
 - eslint
 - `npm run test` 
 ##### Tests all routes and their related CRUD operations
- ## Team Members
- 1. Abdallah Obaid:[GitHub-link](https://github.com/Abdallah-Obaid)
- 2. Raghad Al-Quran:[GitHub-link](https://github.com/raghadalquran)
- 3. Ahlam Alefishat:[GitHub-link](https://github.com/ahlamalefishat96)
- 4. Amer Majdi:[GitHub-link](https://github.com/Amer-bit)
+ ## Abdallah Obaid:[GitHub-link](https://github.com/Abdallah-Obaid)
 
